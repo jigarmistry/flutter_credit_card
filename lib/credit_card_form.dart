@@ -141,7 +141,7 @@ class _CreditCardFormState extends State<CreditCardForm> {
                   hintText: 'xxxx xxxx xxxx xxxx',
                 ),
                 keyboardType: TextInputType.number,
-                textInputAction: TextInputAction.next,
+                textInputAction: TextInputAction.done,
               ),
             ),
             Container(
@@ -158,7 +158,7 @@ class _CreditCardFormState extends State<CreditCardForm> {
                     labelText: 'Expired Date',
                     hintText: 'MM/YY'),
                 keyboardType: TextInputType.number,
-                textInputAction: TextInputAction.next,
+                textInputAction: TextInputAction.done,
               ),
             ),
             Container(
@@ -199,7 +199,7 @@ class _CreditCardFormState extends State<CreditCardForm> {
                   labelText: 'Card Holder',
                 ),
                 keyboardType: TextInputType.text,
-                textInputAction: TextInputAction.next,
+                textInputAction: TextInputAction.done,
               ),
             ),
           ],
