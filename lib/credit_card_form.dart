@@ -155,7 +155,7 @@ class _CreditCardFormState extends State<CreditCardForm> {
                 ),
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    labelText: 'Expired Date',
+                    labelText: 'Expiration Date',
                     hintText: 'MM/YY'),
                 keyboardType: TextInputType.number,
                 textInputAction: TextInputAction.done,
